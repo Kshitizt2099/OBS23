@@ -1,0 +1,78 @@
+.Main{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: row;
+}
+
+.Left{
+        background-size: contain;
+    background-attachment: fixed;
+    height: 800px;
+    width: 60%;
+    border-radius: 10px;
+}
+.Right{
+    height:800px;
+    width: 50vw;
+    border:pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+
+}
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 150px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+ 
+
+  }
+   
+input{
+    border-radius: 10px;
+    width: 50%;
+    height: 10%;
+
+    padding: 10px;
+}
+input:focus{
+    border: yellow;
+    border-radius:50px ;
+}
+.Forgot{
+    margin-right: 120px;
+    text-align: end;
+}
+.sb{
+  background-color:rgb(191, 64, 191);
+  width: 270px;
+  padding: 10px;
+  color: white;
+  border-radius: 50px;
+  font-size: medium;
+  
+}
+.slide{
+    border-radius: 20px;
+    border: 2.5px solid white;
+}
+.Welcome{
+   
+   align-self: flex-start;
+   margin-top: 50px;
+   width:400px;
+   background-color:rgb(191, 64, 191) ; 
+   color: white;
+   height: fit-content;
+   padding: 20px;
+   font-size: large;
+   border-top-right-radius: 40px  ;
+   border-bottom-right-radius: 40px;
+
+}

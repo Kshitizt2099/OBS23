@@ -1,0 +1,127 @@
+.Books_Container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.Price{
+    width:220px;
+    background-color: rgb(53, 157, 198);
+    height:100vh;
+    z-index:0;
+    color: white;
+    font-family: Tahoma, sans-serif;
+}
+.main1 {
+    width: 400px;
+    height: 100vh;
+    background-color: rgb(252, 248, 248);
+    margin-top: 10px;
+    z-index: 1;
+    padding: 10px;
+}
+ 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Main_Container{
+display:flex;
+flex-direction: row;
+}
+
+
+.box{
+    width: 273px;
+    height: 273px;
+    border-radius: 5px;
+    
+    
+    
+}
+
+.box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+  
+}
+.box .overlay {
+    width: 100%;
+    max-height: 100%;
+    min-height: auto;
+    position: absolute;
+    bottom: -100%;
+
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    left: 0;
+    transition: 0.5s;
+    background-color: rgba(51, 53, 78, 0.722);
+    color: white;
+    overflow: hidden;
+ 
+}
+
+.box:hover{
+    cursor: pointer;
+    border: 3px solid rgb(5, 5, 116);
+    
+    opacity: 0.8;
+    box-shadow: 0 5px 15px rgba(138, 48, 48, 0.8);
+}
+
+.bottom{
+    margin-top: 5px;
+    margin-left: 8px;
+    display: flex;
+    width: 273px;
+    flex-direction: column;
+}
+.Details{
+    position: relative;
+    margin-top: 5px;
+}
+.Cart{
+    position: absolute;
+    top: -4px;
+    right: 12px;
+    
+}
+.Cart:hover{
+    cursor: pointer;
+   scale: 1.5;
+
+
+}
+.Genre{
+    margin-left: 0px;
+
+}
+.GenreClicks:hover{
+  cursor: pointer;   
+}
+.PriceSearch{
+    display: flex;
+    flex-direction: row;
+
+}
+.btn{
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 5px;
+    width: 30px;
+    
+    background-color: white;
+    color:black;
+    overflow: hidden;
+    border-radius: 3px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
