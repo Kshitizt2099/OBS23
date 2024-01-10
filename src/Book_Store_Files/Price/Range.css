@@ -1,0 +1,62 @@
+.low {
+    top: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 1px;
+    border-radius: 5px;
+    background: white; /* Default background color */
+    outline: none;
+    padding: 8px;
+    margin: 20px 0;
+  }
+
+
+  /* Styling the thumb (slider handle) */
+  .low::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #f00; /* Thumb color */
+    cursor: pointer;
+  }
+
+  .high {
+    top: 40px;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 1px;
+    border-radius: 5px;
+    background: white; /* Default background color */
+    outline: none;
+    padding: 8px;
+    margin: 20px 0;
+  }
+
+
+  /* Styling the thumb (slider handle) */
+  .high::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: blue; /* Thumb color */
+    cursor: pointer;
+  }
+  .range-container {
+    position: relative;
+    width: 200px; /* Set the width of the container */
+    height: 50px; /* Set the height of the container */
+    margin: 30px auto;
+    margin-left: 0px;
+  }
+  
+  .range {
+    position: absolute;
+    width: calc(100% - 20px); /* Adjust width as needed */
+    z-index: 1;
+  }
